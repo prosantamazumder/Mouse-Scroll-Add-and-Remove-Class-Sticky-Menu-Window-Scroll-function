@@ -1,0 +1,85 @@
+/******************************
+ *  Style CSS  *
+******************************/
+
+.wrapper {
+    background: #212529;
+}
+
+
+/*HEADER STICKY AREA*/
+.stickySection {
+    position: relative;
+    width: 100%;
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -ms-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+.stickySection.sticky {
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    box-shadow: rgba(0,0,0,0.15) 0 5px 5px;
+    position: fixed;
+    top: 0;
+    background-color: #D11138;
+    z-index: 99;
+}
+
+/*ADD CLASS SOME PIXIEL SCROLL*/
+.clearHeader{
+
+}
+.clearHeader.redHeader {
+    position: fixed;
+    background-color: #D11138;
+    z-index: 99;
+}
+
+
+.prevention-area-header-title h4 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.prevention-area-header-title p {
+    color: #d2cdcd;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.single-prevention {
+    border-radius: 30px;
+    padding: 70px 22px;
+    box-shadow: #101010 2px 2px 6px, #3e3b3b -2px -2px 6px;
+    margin: 30px 0px;
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -ms-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+
+.prevention-info i {
+    height: 78px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 78px;
+    line-height: 78px;
+    font-size: 30px;
+}
+
+.prevention-info h4 {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 20px 0;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.prevention-info p {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+}
