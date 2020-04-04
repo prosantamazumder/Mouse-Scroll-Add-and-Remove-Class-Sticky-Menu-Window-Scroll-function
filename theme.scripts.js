@@ -1,6 +1,17 @@
 (function ($) {
     "use strict";
 
+    /**!-------------------------------------------
+        01. PRELOADER
+    --------------------------------------------**/
+    var $mainwindow = $(window);
+    $mainwindow.on('load', function() {
+
+        $("#loader").fadeOut(1000);
+    });
+
+
+
     // HEADER STICKY AREA JS CODE
 	$(window).on('scroll',function() {
 		if ($(this).scrollTop() > 0){  
